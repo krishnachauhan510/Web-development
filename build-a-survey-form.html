@@ -1,0 +1,74 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">"We appreciatenyour participation in our Industry.Please take the survey and leave a remark below to help with future improvement."
+    </header>
+    <main>
+      <form id="survey-form">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name" id="name-label">Name (required):</label>
+          <input required type="text" id="name" name="name" placeholder="Krishna Chauhan"/>
+          <label for="email" id="email-label">Email address (required):</label>
+          <input required type="email" id="email" name="email" placeholder="example@email.com"/>
+          <label for="age" id="number-label">Age (optional):</label>
+          <input type="number" id="number" name="age" min="5" max="100" placeholder="22"/>
+        </fieldset>
+        <fieldset>
+          <legend>Ratings</legend>
+          <label for="dropdown">Service : </label>
+          <select id="dropdown">
+            <option value="bad">Bad</option>
+            <option value="good">Good</option>
+            <option value="neutral">Neutral</option>
+            <option selected value="excellent">Excellent</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Status</legend>
+          <label for="djf">Have you ever come here?</lebel>
+          <label for="yes-box">Yes</lebel>
+          <input type="radio" name="check" value="yes"/>
+          <label for="no-box">No</label>
+          <input type="radio" name="check" value="no"/>
+        </fieldset>
+        <fieldset>
+          <legend>Speciality</legend>
+          <label for="food">Food</lebel>
+          <input type="checkbox" value="food"/>
+          <label for="humbleness">Humbleness</lebel>
+          <input type="checkbox" value="food"/>
+          <label for="purity">Purity</lebel>
+          <input type="checkbox" value="food"/>
+          <label for="food">Price</lebel>
+          <input type="checkbox" value="food"/>
+          <label for="hygiene">Hygiene</lebel>
+          <input type="checkbox" value="food"/>
+        </fieldset>
+        <label>Other Comment</lebel>
+        <textarea rows="10" cols="30"></textarea>
+        <button type="submit" id="submit">Submit</button>
+        
+        
+        
+        
+        
+        </form>
+
+
+
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
